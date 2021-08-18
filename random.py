@@ -47,11 +47,15 @@ data = {
             'capacity': 4
         },
         {
-            'company': 'LG',
-            'type': 'front',
-            'price': 45000,
-            'capacity': 7
-        },
+            'company':
+            'LG',
+            'type':
+            'front',
+            'price':
+            45000,
+            'capacity':
+            7,
+                   },
     ]
 }
 
@@ -60,12 +64,12 @@ list1 = data['Washing Machine']
 
 for item in list1:
     if (item['price'] <= 20000):
-        pprint(item) 
+        pprint(item)
     if (item['price'] <= 30000):
         pprint(item)
     if (item['price'] <= 40000):
-        pprint(item)     
+        pprint(item)
     if (item['price']  >40000):
-        pprint(item)          
+        pprint(item)
     elif(item['company']==LG):
-        pprint(item)    
+        pprint(item)

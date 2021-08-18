@@ -38,31 +38,31 @@ data = {
             'company': 'LG',
             'type': 'front',
             'price': 30000,
-            'capacity': 6
+            'capacity': 6,
+            'url': 'https://www.amazon.in/LG-Ultra-Light-14-inches-Thunderbolt-14Z90P-G-AJ55A2/dp/B09B7Y8HJS/ref=sr_1_1_sspa?dchild=1&qid=1629274055&s=computers&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSkRKOU9GQlY3NzBaJmVuY3J5cHRlZElkPUEwODE0NzA2M0xDOVAwRkMzSUFUQiZlbmNyeXB0ZWRBZElkPUEwMjY5NjIyV1VWWDVCNEpBQUlRJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU='
+
         },
         {
-            'company': 'LG',
-            'type': 'front',
-            'price': 30000,
-            'capacity': 6
+            'company':
+                'Samsung',
+            'type':
+                'top',
+            'price':
+                15000,
+            'capacity':
+                4,
+            'url': 'https://www.amazon.in/LG-Ultra-Light-14-inches-Thunderbolt-14Z90P-G-AJ55A2/dp/B09B7Y8HJS/ref=sr_1_1_sspa?dchild=1&qid=1629274055&s=computers&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSkRKOU9GQlY3NzBaJmVuY3J5cHRlZElkPUEwODE0NzA2M0xDOVAwRkMzSUFUQiZlbmNyeXB0ZWRBZElkPUEwMjY5NjIyV1VWWDVCNEpBQUlRJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU='
         },
         {
-            'company': 'LG',
-            'type': 'front',
-            'price': 30000,
-            'capacity': 6
-        },
-        {
-            'company': 'Samsung',
-            'type': 'top',
-            'price': 15000,
-            'capacity': 4
-        },
-        {
-            'company': 'Whirlpool',
-            'type': 'front',
-            'price': 45000,
-            'capacity': 7
+            'company':
+                'Whirlpool',
+            'type':
+                'front',
+            'price':
+                45000,
+            'capacity':
+                7,
+            'url': 'https://www.amazon.in/LG-Ultra-Light-14-inches-Thunderbolt-14Z90P-G-AJ55A2/dp/B09B7Y8HJS/ref=sr_1_1_sspa?dchild=1&qid=1629274055&s=computers&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSkRKOU9GQlY3NzBaJmVuY3J5cHRlZElkPUEwODE0NzA2M0xDOVAwRkMzSUFUQiZlbmNyeXB0ZWRBZElkPUEwMjY5NjIyV1VWWDVCNEpBQUlRJndpZGdldE5hbWU9c3BfYXRmX2Jyb3dzZSZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU='
         },
     ]
 }
@@ -87,14 +87,14 @@ appliance_type = data[user_appliance]
 print("Here's the list of available items")
 for item in appliance_type:
     print("Company:", item['company'] + '\t', '\t', "Type:",
-        item['type'] + '\t', "Capacity:", str(item['capacity']),
-        'Kgs' + '\t', "Price:", '$', str(item['price']))
+          item['type'] + '\t', "Capacity:", str(item['capacity']),
+          'Kgs' + '\t', "Price:", str(item['price']) +
+          '$' + '\t' + "URL: " + item['url'])
 
 user_type = input("Enter " + user_appliance + " type: ")
 # user_price_low, user_price_high = input("Enter your budget: ")
 user_company = input("Enter " + user_appliance + " company: ")
 
 for item in appliance_type:
-    if(item['type'] == user_type and item['company'] == user_company): 
+    if (item['type'] == user_type and item['company'] == user_company):
         pprint(item)
-        
