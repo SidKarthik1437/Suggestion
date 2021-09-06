@@ -22,6 +22,8 @@ cart = []
 cart_value = 0
 
 while True:
+    bool = False
+
     print("Products available here:")
     for index, item in enumerate(appliances):
         print(index, item)
@@ -41,11 +43,12 @@ while True:
     cart.append(new_data[int(input("Add to cart by typing the index of the product: "))])
     for item in cart:
         cart_value += int(item['price'])
-    print("Product added to cart successfully! Cart Value = ", )
+    print("Product added to cart successfully! Cart Value = ", cart_value )
     if input("Would you like to keep browsing? (y/n) ") == 'y':
         continue
     else:
         break
+
 
 print("INITIATING CHECKOUT")
 print("Items in cart: ")

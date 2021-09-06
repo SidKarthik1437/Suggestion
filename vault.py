@@ -430,7 +430,6 @@ def earphones():
             "model": " 310AP Wired Headset",
             "color": " red",
             "connectivity": "wired",
-            "Headset_type": "wired headphones",
             "price": 849,
             "link": "https://www.flipkart.com/sony-310ap-wired-headset/p/itmc388e2c1ac7ce?pid=ACCDQZAU6GBRWYXD&lid=LSTACCDQZAU6GBRWYXD0TAETK&marketplace=FLIPKART&q=wired+headset&store=0pm%2Ffcn&srno=s_1_15&otracker=search&otracker1=search&fm=SEARCH&iid=3ad6e046-8577-4ce3-9e17-c86827d48ebb.ACCDQZAU6GBRWYXD.SEARCH&ppt=sp&ppn=sp&ssid=frljt1t9uo0000001630855634577&qH=ec8b366ba95c152f"
         },
@@ -439,7 +438,6 @@ def earphones():
             "model": "Riff Mic Wired Headset ",
             "color": "grey",
             "connectivity": "wired",
-            "Headset_type": "wired headphones",
             "price": 2199,
             "link": "https://www.flipkart.com/skullcandy-riff-mic-wired-headset/p/itm7e3b8926bdd3c?pid=ACCFAJ8AU9E3N6UE&lid=LSTACCFAJ8AU9E3N6UEI0MDHD&marketplace=FLIPKART&q=skullcandy+riff&store=0pm%2Ffcn&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_15_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_15_na_na_na&fm=SEARCH&iid=a4aa7048-056b-4744-b2cb-af61909894dd.ACCFAJ8AU9E3N6UE.SEARCH&ppt=sp&ppn=sp&ssid=4sgh9xzots0000001630862224203&qH=fbee780e4af4657c"
         },
@@ -448,7 +446,6 @@ def earphones():
             "model": "HD 4.30i Wired ",
             "color": "whit",
             "connectivity": "wired ",
-            "Headset_type": "wired headphones",
             "price": 7990,
             "link": "https://www.flipkart.com/sennheiser-hd-4-30i-wired-without-mic-headset/p/itmc7d73341fda29?pid=ACCES9QARNEJP7DV&lid=LSTACCES9QARNEJP7DV52M2GS&marketplace=FLIPKART&q=wired+headset&store=0pm%2Ffcn&srno=s_1_34&otracker=search&otracker1=search&fm=SEARCH&iid=8ff7b41d-9bd9-4148-b814-07a8904dc826.ACCES9QARNEJP7DV.SEARCH&ppt=sp&ppn=sp&qH=ec8b366ba95c152f"
         },
@@ -457,7 +454,6 @@ def earphones():
             "model": " Quantum 300 Wired Gaming Headset",
             "color": "black",
             "connectivity": "wired",
-            "Headset_type": "wired headphones",
             "price": 4699,
             "link": "https://www.flipkart.com/jbl-quantum-300-wired-gaming-headset/p/itm8be258f0c4ae6?pid=ACCFSKBYYSHUTJFM&lid=LSTACCFSKBYYSHUTJFM52NXC9&marketplace=FLIPKART&q=wired+headset&store=0pm%2Ffcn&srno=s_1_26&otracker=search&otracker1=search&fm=SEARCH&iid=a98af3c7-d692-4827-9568-0686986d7217.ACCFSKBYYSHUTJFM.SEARCH&ppt=sp&ppn=sp&qH=ec8b366ba95c152f"
         },
@@ -467,7 +463,6 @@ def earphones():
             "model": "Airdopes 131 Bluetooth Headset ",
             "color": " midnight blue",
             "connectivity": "wireless",
-            "Headset_type": "ear buds",
             "price": 1283,
             "link": "https://www.flipkart.com/boat-airdopes-131-bluetooth-headset/p/itmf77ad6e8eecf1?pid=ACCFSDGX68PUKJYE&lid=LSTACCFSDGX68PUKJYEHF5WGJ&marketplace=FLIPKART&q=earbuds&store=0pm%2Ffcn&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=SEARCH&iid=dbc8561a-28a4-405d-8818-cf79543cf49f.ACCFSDGX68PUKJYE.SEARCH&ppt=sp&ppn=sp&ssid=p4qfixwrzk0000001630859778898&qH=2951f68ff1fee1e0"
         },
@@ -476,7 +471,6 @@ def earphones():
             "model": "Buds Bluetooth Headset",
             "color": "nord blue",
             "connectivity": "wireless",
-            "Headset_type": "ear buds",
             "price": 4999,
             "link": "https://www.flipkart.com/oneplus-buds-bluetooth-headset/p/itm4b5b6de677c10?pid=ACCFTRN354PRDUUD&lid=LSTACCFTRN354PRDUUD3LDEGW&marketplace=FLIPKART&q=oneplus+earbuds&store=0pm%2Ffcn&srno=s_1_5&otracker=AS_Query_OrganicAutoSuggest_7_10_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_7_10_na_na_ps&fm=SEARCH&iid=9fdb7a05-1412-4acb-ab41-69f36ada4612.ACCFTRN354PRDUUD.SEARCH&ppt=sp&ppn=sp&ssid=6jtod8sohs0000001630859941044&qH=1236109085756208"
         },
@@ -485,7 +479,6 @@ def earphones():
             "model": "Urban Bluetooth Headset",
             "color": "dark blue",
             "connectivity": "wireless",
-            "Headset_type": "ear buds",
             "price": 3299,
             "link": " https://www.flipkart.com/crossbeats-urban-bluetooth-headset/p/itm34bc8706bcd79?pid=ACCFZAX5UJNEKEDY&lid=LSTACCFZAX5UJNEKEDYSHQDYN&marketplace=FLIPKART&q=oneplus+earbuds&store=0pm%2Ffcn&srno=s_1_19&otracker=AS_Query_OrganicAutoSuggest_7_10_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_7_10_na_na_ps&fm=SEARCH&iid=9fdb7a05-1412-4acb-ab41-69f36ada4612.ACCFZAX5UJNEKEDY.SEARCH&ppt=sp&ppn=sp&qH=1236109085756208"
         },
@@ -494,7 +487,6 @@ def earphones():
             "model": "CX 400BT Bluetooth Headset",
             "color": "black ",
             "connectivity": "wireless",
-            "Headset_type": "ear buds",
             "price": 13990,
             "link": "https://www.flipkart.com/sennheiser-cx-400bt-bluetooth-headset/p/itmd153293c3f3aa?pid=ACCFVGUUHFGJJHCK&lid=LSTACCFVGUUHFGJJHCKYZCPAO&marketplace=FLIPKART&q=senheiser+earbuds&store=0pm%2Ffcn&srno=s_1_2&otracker=search&otracker1=search&fm=SEARCH&iid=e33620de-43ff-4cea-95a9-2729be665958.ACCFVGUUHFGJJHCK.SEARCH&ppt=sp&ppn=sp&ssid=m47531cj6o0000001630860111431&qH=40833830a3216565"
         }

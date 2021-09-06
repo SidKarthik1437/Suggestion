@@ -101,9 +101,9 @@ def pref_input(appliance):
         print("IN STOCK ", avail[0])
         company = input("Enter preferred brand: ")
         print("IN STOCK ", avail[1])
-        model = input("Enter preferred model: ")
-        print("IN STOCK ", avail[2])
         ram = input("Enter preferred memory size: ")
+        print("IN STOCK ", avail[2])
+        model = input("Enter preferred model: ")
         print("IN STOCK ", avail[3])
         screensize = input("Enter preferred screen size (inches): ")
         print("IN STOCK ", avail[4])
@@ -112,7 +112,7 @@ def pref_input(appliance):
         high = input("Enter maximum budget: ")
 
         return {'company': company,
-                'model': model,
+                'resolution': model,
                 'ram': ram,
                 'screensize': screensize,
                 'warranty': warranty,
